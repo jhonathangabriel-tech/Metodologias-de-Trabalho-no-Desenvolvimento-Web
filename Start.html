@@ -8,10 +8,95 @@
     <link rel="stylesheet" href="cara.css">
 </head>
 <body>
-    <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Regular link</a></li>
-        <li><a class="dropdown-item active" href="#" aria-current="true">Active link</a></li>
-        <li><a class="dropdown-item" href="#">Another link</a></li>
-    </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+
+    <a class="navbar-brand fw-bold" href="#">
+                EcoBikes
+            </a>
+    
+     <div class="collapse navbar-collapse" id="menuPrincipal">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Início</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"
+                           href="#"
+                           role="button"
+                           data-bs-toggle="dropdown">
+                            Produtos
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Produto 1</a></li>
+                            <li><a class="dropdown-item" href="#">Produto 2</a></li>
+                            <li><a class="dropdown-item" href="#">Produto 3</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+
+                    </ul>
+
+                <!-- Botão -->
+                <a href="#" class="btn btn-light ms-lg-3">
+                    Entrar
+                </a>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <ol class="list-group list-group-numbered">
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Mountain Bike (MTB)</div>
+      Para trilhas e terrenos irregulares
+    </div>
+    <span class="badge text-bg-primary rounded-pill">Alugar Agora</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Speed (Estrada)</div>
+      Focada em velocidade no asfalto
+    </div>
+    <span class="badge text-bg-primary rounded-pill">Alugar Agora</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">BMX</div>
+      Pequena e resistente, ideal para manobras
+    </div>
+    <span class="badge text-bg-primary rounded-pill">Alugar Agora</span>
+  </li>
+</ol>
+
+<footer class="py-4">
+    <div class="container text-center">
+        <h5>🚲 EcoBikes</h5>
+        <p>
+            Mobilidade sustentável para um futuro melhor.
+        </p>
+
+        <small>
+            © 2026 EcoBikes. Todos os direitos reservados.
+        </small>
+    </div>
+</footer>
+
 </body>
 </html>
